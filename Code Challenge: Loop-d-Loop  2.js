@@ -7,7 +7,7 @@
 //identify what is changing or progressing in each iteration
 // what variables do we need?
 // define the necessary variables for the loop
-var mile
+
 function candyDispenser(mile) {
     for (var distance = 2; distance <= 6; distance += 2) {
       console.log(distance);
