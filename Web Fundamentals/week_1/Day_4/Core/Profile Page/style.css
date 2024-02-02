@@ -1,10 +1,40 @@
 body {
     font-family: "Helvetica Neue", Arial, sans-serif;
 }
+.nav{
+    background-color: gray;
+    height: 70px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.active{
+    font-weight: bold;
+}
+.btn{
+    background-color:blue;
+    color: white;
+    border: 2px solid black;
+    width: 90px;
+    height: 30px;
+    box-shadow: 3px 3px 2px 1px black;
+}
 .theBigBOX {
     width: 500px;
-    border-color: black;
-    border: 2px solid #000;
+    border-color: grey;
+    border: 2px solid grey;
     justify-content: center;
 }
 .l1 {
@@ -32,71 +62,95 @@ img {
     width: 20px;
 }
 .box2{
-    width:451px ;
-    margin: 10px;
-    padding: 23px;
-    border: 2px solid #000;
+    border: 2px solid grey;
+    width: 500px;
+    margin-top: 50px;
 }
 .t1{
+    position: relative;
+    bottom: 15px;
+    background-color: grey;
     color: white;
-    background-color: #000;
-    margin:-5% -5% 0% -5%;
-    padding:3% 0% 4% 3%;
+    margin-top: 15px;    
 }
 .container{
     display: flex;
-    align-items: center;
-
+    align-content: flex-start;
+    flex-wrap: wrap;
 }
 .box3{
     border: 2px solid #000;
-    padding: 4%;
     margin: 4%;
+    display: flex;
+    flex-direction: column;
 }
 .ti1{
     background-color: grey;
-    font-size: larger;
-
-
+    border: 2px solid gray;
+    color: white;
+    font-size: 10px;
+    margin: 0px;
 }
 .pics1{
     display: flex;
     align-items: center;
-}
-.pic1{
-    padding: 3%;
-    width: 100px;
     height: 100px;
+}
+.acc1{
+    padding: 4%;
     border-radius: 50%;
 }
-.pics2{
-    display: flex;
-    align-items: center;
-}
 .pic2{
-    padding: 3%;
-    width: 100px;
-    height: 100px;
     border-radius: 50%;
 }
 .n1{
-    padding-right: 60px;
-}
-.acc1{
-    padding-right: 30px;
+    padding-right: 22px;
 }
 .box4{
-    border: 2px solid #000;
-
+    border: 2px solid gray;
+    padding: 0%;
     width: 73%;
-    border: 2px solid #000;
-    padding: 4%;
+    border: 2px solid gray;
     margin: 4%;
 }
-.m1{
-}
-.contact1{
+.con2{
     display: flex;
-    border-style: dotted; 
-
+    flex-direction: column;
+    width: 600px;
 }
+.mast{
+    display: flex;
+}
+
+.o1{
+    background-color: #b6b6b6;
+    color: white;
+    font-size: 40px;
+    margin: 0%;
+}
+.pics2{
+    display: flex;
+    flex-direction: column;
+}
+.lis1{
+    padding: 4%;
+    border-radius: 50%;
+    display: flex;
+}
+.acc2{
+    border-radius: 50%;
+    padding-right: 4%;
+    width: 100px;
+    height: 100px;
+}
+.rlink{
+    text-align: center;
+    font-size: large;
+    background-color: #f7f7f7;
+    padding: 5%;
+    border: 2px solid grey
+}
+.col{
+    color: blue;
+}
+
