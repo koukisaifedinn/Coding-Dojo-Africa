@@ -17,7 +17,7 @@ body {
     gap: 20px;
 }
 a{
-    color: white;
+    color: rgb(52, 52, 252);
     text-decoration: none;
 }
 .active{
@@ -32,10 +32,9 @@ a{
     box-shadow: 3px 3px 2px 1px black;
 }
 .theBigBOX {
-    width: 500px;
-    border-color: grey;
-    border: 2px solid grey;
-    justify-content: center;
+    margin-top: 9%;
+    border-color: black;
+    border: 2px solid #000;
 }
 .l1 {
     width: 340px; 
@@ -55,6 +54,7 @@ img {
 }
 .img1 {
     margin-left: 20px;
+    margin-top: 7%;
     position: absolute;
     top: 120px;  
 }
@@ -73,11 +73,6 @@ img {
     color: white;
     margin-top: 15px;    
 }
-.container{
-    display: flex;
-    align-content: flex-start;
-    flex-wrap: wrap;
-}
 .box3{
     border: 2px solid #000;
     margin: 4%;
@@ -88,7 +83,7 @@ img {
     background-color: grey;
     border: 2px solid gray;
     color: white;
-    font-size: 10px;
+    font-size: 41px;
     margin: 0px;
 }
 .pics1{
