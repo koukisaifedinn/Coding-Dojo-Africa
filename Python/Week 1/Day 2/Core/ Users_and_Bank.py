@@ -22,7 +22,11 @@ class User:
         self.email = email
         self.account = BankAccount(int_rate=0.02, balance=0)
     
-    def 
-    
     def make_deposit(self, amount):
-        self.balance+=self.amount
+        self.account.deposit(amount)
+    
+    def make_withdraw(self,amount):
+        self.account.withdraw(amount)
+user1=User("saif","koukisaif2003@gmail.com")
+user1.make_deposit(1000)
+user1.make_withdraw(400)
