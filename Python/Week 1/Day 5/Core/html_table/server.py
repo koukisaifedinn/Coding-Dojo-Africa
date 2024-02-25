@@ -3,7 +3,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 @app.route('/')
-def home():
+def user_list():
 
     headers = ['first_name', 'last_name','full_name']
     
